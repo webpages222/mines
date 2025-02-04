@@ -1,7 +1,9 @@
-<!DOCTYPE html><html lang="ru"><head>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
     <meta charset="UTF-8">
     <title>Вертикальный выбор числа</title>
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <style>
         @font-face {
             font-family: 'Intro';
@@ -118,7 +120,7 @@
     <audio id="scroll-sound" src="1.mp3"></audio>
     <audio id="ok-sound" src="ok.mp3"></audio>
 
-    <script src="swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
         let swiperInitialized = false;
 
@@ -162,7 +164,7 @@
 
         document.addEventListener('DOMContentLoaded', function() {
             const title = document.querySelector('.title');
-            const texts = ["MINES", "WINEARNER"];
+            const texts = ["MINES", "VINEET"];
             let index = 0;
 
             function changeText() {
@@ -178,6 +180,5 @@
             setInterval(changeText, 3000); // Периодическая смена текста
         });
     </script>
-
-
-</body></html>
+</body>
+</html>

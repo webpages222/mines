@@ -1,4 +1,6 @@
-<!DOCTYPE html><html lang="ru"><head>
+<!DOCTYPE html>
+<html lang="ru">
+<head>
     <meta charset="UTF-8">
     <title>Интерактивная страница</title>
      <style>
@@ -183,7 +185,7 @@
         }
         @font-face {
             font-family: 'Intro';
-            src: url('fonts/intro.otf') format('opentype');
+            src: url('intro.otf') format('opentype');
         }
 
         body {
@@ -300,12 +302,12 @@
          <div class="animated-text" id="animated-text"></div>
          <div class="vineet" id="vineet">
             <img src="tg.svg" alt="Telegram Icon">
-            WINEARNER_MINES_BOT
+            vineet_mines_bot
         </div>
         <div class="container">
             <div class="grid" id="grid">
                 <!-- Квадраты будут добавлены здесь с помощью JavaScript -->
-            <div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div><div class="square"></div></div>
+            </div>
         </div>
         <div id="counter-container">
             <span id="count" class="count-display"></span>
@@ -317,7 +319,7 @@
     <audio id="close-sound" src="close.mp3"></audio>
     <!-- Модальное окно для ввода количества ловушек -->
     <div id="modal">
-    <div class="close-button" onclick="closeModals()">×</div>
+    <div class="close-button" onclick="closeModals()">&times;</div>
     <iframe src="slider.html" frameborder="0" style="width:100%; height:100%"></iframe>
 </div>
 <div class="footer">
@@ -441,6 +443,5 @@
     
      
 </script>
-
-
-</body></html>
+</body>
+</html>
